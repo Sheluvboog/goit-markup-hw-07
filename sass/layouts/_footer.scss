@@ -15,11 +15,6 @@
 .footer-address {
     margin-top: 20px;
 }
-
-.footer-text-logo {
-    color: var(--primary-color);
-}
-
 .street {
     font-size: 14px;
     line-height: 1.71;
@@ -89,17 +84,22 @@
     justify-content: center;
     align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-soc-icon {
-    fill: var(--primary-color);
     &:hover,
         &:focus {
             background-color: var(--accent-text-color);
         }
 }
 
+.footer-soc-icon {
+    fill: var(--primary-color);
+}
 
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: baseline;
+}
 
 .footer-form {
     width: 570px;
@@ -107,6 +107,7 @@
     display: flex;
     gap: 12px;
     align-items: flex-end;
+    margin-left: 93px;
 }
 
 .footer-label {

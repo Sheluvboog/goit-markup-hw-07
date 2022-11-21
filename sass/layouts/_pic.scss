@@ -1,23 +1,15 @@
-.title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    color: var(--primary-text-color);
-    margin-bottom: 50px;
-    text-align: center;
-}
 
-.img-list {
+.pic__list {
     display: flex;
     gap: 30px;
 }
 
-.list-item {
+.pic__item {
     width: calc((100% - 60px) / 3);
     position: relative;
 }
 
-.list-bottom-text {
+.pic__bottom-text {
     position: absolute;
     bottom: 0;
     font-weight: 700;

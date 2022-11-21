@@ -6,7 +6,7 @@
     gap: 50px;
 }
 
-.element-contact {
+.contact__element {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -19,13 +19,13 @@
         }
 }
 
-.contact-link {
+.contact__link {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.contact-icon {
+.contact__icon {
     margin-right: 10px;
     fill: currentColor;
 }

@@ -4,3 +4,8 @@
     border-bottom: 1px solid var(--header-border);
     background-color: var(--primary-color);
 }
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
